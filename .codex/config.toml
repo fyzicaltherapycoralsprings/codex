@@ -1,0 +1,22 @@
+# Project-scoped Codex defaults for this repo.
+# Keep this file conservative: shared defaults only.
+
+approval_policy = "on-request"
+sandbox_mode = "workspace-write"
+
+[features]
+# Enable only if available for your account / region and if you want the project
+# to participate in local memory generation. Many teams prefer enabling this in
+# ~/.codex/config.toml instead of forcing it at the repo level.
+# memories = true
+
+# Optional profile examples:
+#
+# [profiles.deep-review]
+# model = "gpt-5-pro"
+# model_reasoning_effort = "high"
+# approval_policy = "never"
+#
+# [profiles.lightweight]
+# model = "gpt-4.1"
+# approval_policy = "untrusted"
